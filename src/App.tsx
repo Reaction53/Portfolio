@@ -1,12 +1,14 @@
 import React from 'react';
-import Content from './Content';
-import Rounded from './RoundedPhoto';
+import Bio from './components/Bio';
+import Content from './components/Content';
+import Rounded from './components/RoundedPhoto';
 
 function App() {
   return (
    <>
    <Rounded/>
    <Content/>
+   <Bio/>
    </>
   );
 }

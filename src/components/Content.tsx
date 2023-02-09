@@ -1,7 +1,10 @@
 import { motion } from "framer-motion";
-import React from "react";
 import { useState } from "react";
 import { DiReact } from "react-icons/di";
+import { SiFramer } from "react-icons/si";
+import { AiFillHtml5 } from "react-icons/ai";
+import { DiCss3 } from "react-icons/di";
+import { DiJavascript1 } from "react-icons/di";
 
 
 function Content (){
@@ -38,10 +41,10 @@ function Content (){
           animate={{ opacity: 1, scale: 1 }}
           transition={{
             duration: 0.8,
-            delay: 0.5,
+            delay: 1.6,
             ease: [0, 0.71, 0.2, 1.01]
           }}>
-            <motion.div animate={{height: isOpen ? 200 : 90, width: isOpen ? 400 : 200}} onClick={handleClick} className="bg-indigo-400 rounded shadow-lg shadow-black w-[25%] h-[30%] mr-[-40%] ">
+            <motion.div animate={{height: isOpen ? 200 : 90, width: isOpen ? 400 : 200}} onClick={handleClick} className="bg-gradient-to-r from-[#0D1212] to-[#060808] text-gray-300 rounded shadow-lg shadow-black w-[25%] h-[30%] mr-[-35%] cursor-pointer">
              <h1 className="flex"><DiReact className="h-8 w-8" />React</h1>
                  {isOpen && <motion.p 
                         transition={{ delay: 0.3, type: "spring"}}
@@ -56,8 +59,8 @@ function Content (){
                         }
             </motion.div>
 
-            <motion.div animate={{height: isOpen2 ? 200 : 90, width: isOpen2 ? 500 : 400}} onClick={handleClick2} className="bg-white rounded shadow-lg shadow-black w-[25%] h-[30%] ml-[-30%]">
-            <h1>Tittle</h1>
+            <motion.div animate={{height: isOpen2 ? 200 : 90, width: isOpen2 ? 500 : 400}} onClick={handleClick2} className="bg-gradient-to-r from-[#0D1212] to-[#060808] text-gray-300 rounded shadow-lg shadow-black w-[25%] h-[30%] ml-[-25%] cursor-pointer">
+            <h1 className="flex"><SiFramer className="h-6 w-6"/>Frame Motion</h1>
                 {isOpen2 && <motion.p 
                         transition={{ delay: 0.3, type: "spring"}}
                         initial={{ opacity: 0, top: "6rem" }}
@@ -66,8 +69,8 @@ function Content (){
                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. </motion.p> }
             </motion.div>
 
-            <motion.div animate={{height: isOpen3 ? 200 : 90, width: isOpen3 ? 500 : 400}} onClick={handleClick3} className="bg-white rounded shadow-lg shadow-black w-[25%] h-[30%] mt-[-40%] mr-[-40%]">
-            <h1>Tittle</h1>
+            <motion.div animate={{height: isOpen3 ? 200 : 90, width: isOpen3 ? 500 : 400}} onClick={handleClick3} className="bg-gradient-to-r from-[#0D1212] to-[#060808] text-gray-300 rounded shadow-lg shadow-black w-[25%] h-[30%] mt-[-35%] mr-[-35%] cursor-pointer">
+            <h1 className="flex"><AiFillHtml5 className="h-6 w-6"/>HTML5 e CSS3 <DiCss3 className="h-6 w-6"/></h1>
                 {isOpen3 && <motion.p 
                         transition={{ delay: 0.3, type: "spring"}}
                         initial={{ opacity: 0, top: "6rem" }}
@@ -76,8 +79,8 @@ function Content (){
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. </motion.p> }
             </motion.div>
             
-            <motion.div animate={{height: isOpen4 ? 200 : 90, width: isOpen4 ? 400 : 200}} onClick={handleClick4}className="bg-white rounded shadow-lg shadow-black w-[75%] h-[30%] mt-[-40%] ml-[-30%]">
-            <h1>Tittle</h1>
+            <motion.div animate={{height: isOpen4 ? 200 : 90, width: isOpen4 ? 400 : 200}} onClick={handleClick4}className="bg-gradient-to-r from-[#0D1212] to-[#060808] text-gray-300 rounded shadow-lg shadow-black w-[75%] h-[30%] mt-[-35%] ml-[-25%] cursor-pointer">
+            <h1 className="flex"><DiJavascript1 className="h-6 w-6"/>JavaScript</h1>
                {isOpen4 && <motion.p
                         transition={{ delay: 0.3, type: "spring"}}
                         initial={{ opacity: 0, top: "6rem" }}
