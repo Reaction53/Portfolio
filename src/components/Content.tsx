@@ -50,43 +50,41 @@ function Content (){
                         transition={{ delay: 0.3, type: "spring"}}
                         initial={{ opacity: 0, top: "6rem" }}
                         animate={{ opacity: 1, top: "3rem" }}
-                    
                         >
-                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Impedit, animi molestias eaque sit totam corrupti ex facilis obcaecati 
-                        earum dolore fuga fugit. Dolore expedita earum velit nobis numquam cumque itaque!
+                         Habilidades com React! a biblioteca de JavaScript para criação de interfaces de forma mais prática e moderna, este site foi feito com o próprio React
                         </motion.p> 
                         }
             </motion.div>
 
             <motion.div animate={{height: isOpen2 ? 200 : 90, width: isOpen2 ? 500 : 400}} onClick={handleClick2} className="bg-gradient-to-r from-[#0D1212] to-[#060808] text-gray-300 rounded shadow-lg shadow-black w-[25%] h-[30%] ml-[-25%] lg:mb-[20%] cursor-pointer">
-            <h1 className="flex"><SiFramer className="h-6 w-6"/>Frame Motion</h1>
-                {isOpen2 && <motion.p 
+            <h1 className="flex"><SiFramer className="h-6 w-6"/>Framer Motion</h1>
+                {isOpen2 && <motion.p className='p-1'
                         transition={{ delay: 0.3, type: "spring"}}
                         initial={{ opacity: 0, top: "6rem" }}
                         animate={{ opacity: 1, top: "3rem" }}
                         >
-                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. </motion.p> }
+                         As animações deste site foram feitas com a ajuda do Framer motion, uma biblioteca completamente nova para interações desde moderna a animações mais robustas com uma semântica simples!
+                        </motion.p> }
             </motion.div>
 
             <motion.div animate={{height: isOpen3 ? 200 : 90, width: isOpen3 ? 500 : 400}} onClick={handleClick3} className="bg-gradient-to-r from-[#0D1212] to-[#060808] text-gray-300 rounded shadow-lg shadow-black w-[25%] h-[30%] mt-[-35%] mr-[-35%] lg:ml-[-15%] cursor-pointer">
             <h1 className="flex"><AiFillHtml5 className="h-6 w-6"/>HTML5 e CSS3 <DiCss3 className="h-6 w-6"/></h1>
-                {isOpen3 && <motion.p 
+                {isOpen3 && <motion.p className='p-1'
                         transition={{ delay: 0.3, type: "spring"}}
                         initial={{ opacity: 0, top: "6rem" }}
                         animate={{ opacity: 1, top: "3rem" }}
                 >
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. </motion.p> }
+                Dominío total de HTML5 e CSS3, a base de construção de sites e estilização do mesmo. </motion.p> }
             </motion.div>
             
             <motion.div animate={{height: isOpen4 ? 200 : 90, width: isOpen4 ? 400 : 200}} onClick={handleClick4}className="bg-gradient-to-r from-[#0D1212] to-[#060808] text-gray-300 rounded shadow-lg shadow-black w-[75%] h-[30%] mt-[-35%] ml-[-25%] lg:ml-[-2%] lg:mt-[-15%] cursor-pointer">
             <h1 className="flex"><DiJavascript1 className="h-6 w-6"/>JavaScript</h1>
-               {isOpen4 && <motion.p
+               {isOpen4 && <motion.p className='p-1'
                         transition={{ delay: 0.3, type: "spring"}}
                         initial={{ opacity: 0, top: "6rem" }}
                         animate={{ opacity: 1, top: "3rem" }}
                         >
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. </motion.p> }
+                        Uma linguagem leve, interpretada e baseada em objetos, usando muito a lógica de programação e orientado a objeto. </motion.p> }
             </motion.div>
         </motion.div>
     );
