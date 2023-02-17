@@ -56,7 +56,7 @@ function Content (){
                         }
             </motion.div>
 
-            <motion.div animate={{height: isOpen2 ? 200 : 90, width: isOpen2 ? 450 : 400}} onClick={handleClick2} className="bg-gradient-to-r from-[#0D1212] to-[#060808] text-gray-300 rounded shadow-lg shadow-black w-[25%] h-[30%] ml-[-25%] lg:mb-[%] lg:ml-[3%] cursor-pointer">
+            <motion.div animate={{height: isOpen2 ? 200 : 90, width: isOpen2 ? 425 : 400}} onClick={handleClick2} className="bg-gradient-to-r from-[#0D1212] to-[#060808] text-gray-300 rounded shadow-lg shadow-black w-[25%] h-[30%] ml-[-25%] lg:mb-[%] lg:ml-[3%] cursor-pointer">
             <h1 className="flex"><SiFramer className="h-6 w-6"/>Framer Motion</h1>
                 {isOpen2 && <motion.p className='p-1'
                         transition={{ delay: 0.3, type: "spring"}}
