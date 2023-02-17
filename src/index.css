@@ -19,4 +19,7 @@
 body {
     background-image: linear-gradient(#020120,#0D052E);
 }
+body {
+    overflow-x: hidden;
+}
 
