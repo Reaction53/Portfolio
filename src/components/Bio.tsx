@@ -6,7 +6,7 @@ function Bio () {
 
   return (
     <div className="grid grid-cols-2 w-[100vw] h-[80vw] lg:flex flex-wrap">
-      <motion.div className='md:mt-[135%]'
+      <motion.div className='md:mt-[100%]'
           initial={{opacity:0 , scale: 0}}
           whileInView={{ opacity: 1 , scale: 1}}
           transition={{ease: [0, 0.71, 0.2, 1.01]}}>
