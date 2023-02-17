@@ -3,7 +3,7 @@ import Brain from '../images/Brain.png'
 
 const ContentPlus = () => {
   return (
-    <div className=' lg:my-[70%]'>
+    <div className=' lg:my-[70%] md:mt-[165%]'>
       <img alt='Brain' src={Brain} className='w-[40%] h-[40%] ml-[29%] '></img>
       <div className='w-screen h-[23rem]'>
         <h1 className='text-center text-gray-300 text-4xl'>Sites Modernos e Inteligentes</h1>
