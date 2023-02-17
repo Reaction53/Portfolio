@@ -56,22 +56,14 @@ function Content (){
                         }
             </motion.div>
 
-<<<<<<< HEAD
             <motion.div animate={{height: isOpen2 ? 200 : 90, width: isOpen2 ? 500 : 400}} onClick={handleClick2} className="bg-gradient-to-r from-[#0D1212] to-[#060808] text-gray-300 rounded shadow-lg shadow-black w-[25%] h-[30%] ml-[-25%] lg:mb-[%] lg:ml-[3%] cursor-pointer">
-=======
-            <motion.div animate={{height: isOpen2 ? 200 : 90, width: isOpen2 ? 500 : 400}} onClick={handleClick2} className="bg-gradient-to-r from-[#0D1212] to-[#060808] text-gray-300 rounded shadow-lg shadow-black w-[25%] h-[30%] ml-[-25%] lg:mb-[20%] cursor-pointer">
->>>>>>> 648fea2bba8d46b4ec78229120e20ab16f75f2da
             <h1 className="flex"><SiFramer className="h-6 w-6"/>Framer Motion</h1>
                 {isOpen2 && <motion.p className='p-1'
                         transition={{ delay: 0.3, type: "spring"}}
                         initial={{ opacity: 0, top: "6rem" }}
                         animate={{ opacity: 1, top: "3rem" }}
                         >
-<<<<<<< HEAD
                          As animações deste site foram feitas com a ajuda do Framer motion, uma biblioteca completamente nova para interações modernas e animações mais robustas com uma semântica simples!
-=======
-                         As animações deste site foram feitas com a ajuda do Framer motion, uma biblioteca completamente nova para interações desde moderna a animações mais robustas com uma semântica simples!
->>>>>>> 648fea2bba8d46b4ec78229120e20ab16f75f2da
                         </motion.p> }
             </motion.div>
 
