@@ -12,16 +12,16 @@ const ContentPlus = () => {
       </div>
       <div className="flex flex-nowrap w-screen justify-center h-[32rem] lg:grid grid-cols-1 lg:justify-items-center">
             <div className='bg-gradient-to-r from-[#0D1212] to-[#060808] text-gray-300 rounded shadow-lg shadow-black w-[30%] h-[30%] ml-[1%] text-center lg:h-[70%] lg:w-[60%] lg:m-4'>
-                <h1 className='mt-[2%]'>Tittle</h1>
-                <p className='p-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, error.</p>
+                <h1 className='mt-[2%]'>Arthur</h1>
+                <p className='p-1'>Muito bom, site totalmente funcional e animações ótimas.</p>
             </div>
             <div className='bg-gradient-to-r from-[#0D1212] to-[#060808] text-gray-300 rounded shadow-lg shadow-black w-[30%] h-[30%] mx-[10%] text-center lg:h-[70%] lg:w-[60%] lg:m-4'>
-                <h1 className='mt-[2%]'>Tittle</h1>
-                <p className='p-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, error.</p>
+                <h1 className='mt-[2%]'>Cintia C.</h1>
+                <p className='p-1'>Fiquei muito satisfeita com meu site, caso eu queria algo retornarei novamente!</p>
             </div>
             <div className='bg-gradient-to-r from-[#0D1212] to-[#060808] text-gray-300 rounded shadow-lg shadow-black w-[30%] h-[30%] mr-[2%] text-center lg:h-[70%] lg:w-[60%] lg:m-4 '>
-                <h1 className='mt-[2%]'>Tittle</h1>
-                <p className='p-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, error.</p>
+                <h1 className='mt-[2%]'>Cícero G.</h1>
+                <p className='p-1'>Ótimo cliente, prestativo e atencioso, é sempre um prazer discutir design de sites com ele.</p>
             </div>
         </div>
     </div>
