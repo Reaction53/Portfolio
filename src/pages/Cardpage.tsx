@@ -45,7 +45,7 @@ const Cardpage = () => {
             <motion.div 
               style={{ x, y, rotateX, rotateY, z: 10000}}
 
-            className='absolute top-[35%] lg:mt-[10%] md:mt-[35%]'>{/*Image*/}
+            className='absolute top-[35%] lg:mt-[10%] md:mt-[45%] md:ml-[10%]'>{/*Image*/}
               <img alt='women' src={Women} draggable='false'></img>
             </motion.div>{/*Image*/}
 
