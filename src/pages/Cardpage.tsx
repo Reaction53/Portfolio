@@ -13,7 +13,7 @@ const Cardpage = () => {
 
 
   return (
-    <div className='flex justify-center w-screen h-[74vw]'>
+    <div className='flex justify-center w-screen h-[74vw] lg:h-[100vw]'>
       <div>
         <motion.h1 
         transition={{ delay: 1}}
@@ -21,7 +21,7 @@ const Cardpage = () => {
         animate={{ opacity: 1, top: "3rem" }}
         className='text-center text-gray-300 text-4xl p-10'> Clique e arraste!</motion.h1>
         </div>
-        <div style={{ perspective: 2000}} className='flex items-center ml-[-32%]'>
+        <div style={{ perspective: 2000}} className='flex items-center ml-[-32%] lg:mt-[25%]'>
           <motion.div
             style={{x, y, rotateX, rotateY, z: 100}}
             drag
@@ -29,11 +29,11 @@ const Cardpage = () => {
             dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
             whileTap={{cursor: 'grabbing'}}
 
-          className='w-[400px] min-h-[500px] bg-gradient-to-r from-[#0D1212] to-[#060808] text-gray-300 shadow-lg shadow-black rounded-lg px-[40px] py-[25px] cursor-grab relative'>{/*Card*/}
+          className='w-[400px] min-h-[500px] bg-gradient-to-r from-[#0D1212] to-[#060808] text-gray-300 shadow-lg shadow-black rounded-lg px-[40px] py-[25px] cursor-grab relative lg:w-[70%] lg:h-[30%]'>{/*Card*/}
           
-            <h1 className='text-5xl mb-6 font-extrabold'>Cards Animados!</h1>{/*Titulo*/}
+            <h1 className='text-5xl mb-6 font-extrabold lg:p-30 lg:text-center'>Cards Animados!</h1>{/*Titulo*/}
 
-            <p className='max-w-[300px] mb-6 text-gray-300'>
+            <p className='max-w-[300px] mb-6 text-gray-300 lg:p-30'>
               Animações de cards 3D, não muito utilizadas, porém, com uso da criatividade pode se tornar algo realmente confortável de se olhar 
             </p>
             <div className='flex items-center gap-x-[20px]'>{/*Button*/}
@@ -45,7 +45,7 @@ const Cardpage = () => {
             <motion.div 
               style={{ x, y, rotateX, rotateY, z: 10000}}
 
-            className='absolute top-[35%]'>{/*Image*/}
+            className='absolute top-[35%] lg:mt-[20%]'>{/*Image*/}
               <img alt='women' src={Women} draggable='false'></img>
             </motion.div>{/*Image*/}
 
