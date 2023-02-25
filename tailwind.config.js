@@ -18,7 +18,14 @@ module.exports = {
       'sm': {'max': '639px'},
       // => @media (max-width: 639px) { ... }
     },
-    extend: {},
+    extend: {
+      zIndex: {
+        '0': '0',
+        '5': '5',
+        '10': '10',
+        '15': '15',
+      }
+    },
   },
   plugins: [],
 }

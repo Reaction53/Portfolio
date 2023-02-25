@@ -24,6 +24,9 @@ const ContentPlus = () => {
                 <p className='p-1'>Ótimo cliente, prestativo e atencioso, é sempre um prazer discutir design de sites com ele.</p>
             </div>
         </div>
+        <div className='flex justify-center w-screen h-[24vw]'>
+           <a href='/Cardpage' className='bg-gradient-to-r from-[#00FFDA] to-[#02CFB1] text-black-300 rounded shadow-lg shadow-black w-[15%] h-[16%] mt-[-10%] cursor-pointer text-center p-3 lg:mt-[10%] lg:w-[20%] lg:h-[50%] lg:p-[1%]'>Mais exemplos</a>
+        </div>
     </div>
   )
 }
